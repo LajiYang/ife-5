@@ -1,0 +1,168 @@
+html,body{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    background-color: #fff;
+}
+
+body{
+    background-color: lightgray;
+    min-width:995px;
+    margin: 20px;    
+}
+
+/**********header***********/
+.header{
+    background: black left bottom url(baidu.png) no-repeat ;
+    height:62px; 
+    border: 1px solid black;
+    position: relative;
+}
+
+.header li{
+    position: absolute;
+    top:30px;
+    left:60%;
+    list-style-type: none;
+    margin-left: 10%;
+    padding: 0;
+    color: white;
+}
+.header li +li{
+    left:68%
+}
+.header li+li+li{
+    left: 76%;
+}
+.header li+li+li+li{
+    left: 84%
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+/************main**************/
+
+.main{
+
+}
+
+.paragraph{
+    margin: 20px;
+    padding: 20px;
+    border: 1px white solid;
+    border-right:3px darkgray solid;
+    border-bottom:3px darkgray solid;
+    background-color: white;
+}
+
+.paragraph h3{
+    color: gray;
+}
+.paragraph h3 +p{
+    color: gray;
+    font-size: 12px;
+}
+.paragraph ul li{
+    list-style-type: none;
+}
+
+.photos p{
+    margin: 10px;
+    margin-left: 50px;
+    border: 1px solid lightgray;
+    width:192px;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.photos p img{
+    display: block;
+    padding-top: 10px;
+}
+
+.paragraph table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px lightgrey solid;
+    font-size: 13px;
+}
+
+table th{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+#last{
+    background-color: lightgray;
+}
+
+/************celan************/
+
+.celan{
+    margin-top: 40px;
+}
+
+.celan h2{
+    border-left: 3px gray solid;
+    padding-left: 10px;
+}
+
+.celan form{
+    font-size: 15px;
+}
+
+form>div{
+    margin-left: 25%;
+}
+form div span{
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.emphasize{
+    text-align: left;
+    vertical-align:text-bottom;
+    font-size: 11px;
+    color: grey;
+}
+
+.emphasize input{
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom:10px; 
+}
+
+form textarea{
+    width: 75%;
+    height: 80px;
+    border: 2px lightgray solid;
+}
+
+form input[type="submit"]{
+    border-radius: 5px;
+    border:dodgerblue;
+    background-color: dodgerblue;
+    width:100%;
+    height: 40px;
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*********footer********/
+
+.footer{
+    width: 100%;
+    line-height: 62px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
