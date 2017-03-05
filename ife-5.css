@@ -10,7 +10,6 @@ html{
 body{
     background-color: lightgray;
     min-width:995px;
-    margin: 20px;    
 }
 
 /**********header***********/
@@ -48,7 +47,7 @@ body{
 /************main**************/
 
 .main{
-
+    position: relative;
 }
 
 .paragraph{
@@ -58,6 +57,7 @@ body{
     border-right:3px darkgray solid;
     border-bottom:3px darkgray solid;
     background-color: white;
+    margin-right:433px; 
 }
 
 .paragraph h3{
@@ -73,16 +73,16 @@ body{
 
 .photos p{
     margin: 10px;
-    margin-left: 50px;
     border: 1px solid lightgray;
-    width:192px;
+    width:80px;
     padding: 10px;
     text-align: center;
     font-size: 13px;
+    display: inline-block;
 }
 .photos p img{
-    display: block;
     padding-top: 10px;
+    display: block;
 }
 
 .paragraph table{
@@ -105,7 +105,12 @@ table th{
 /************celan************/
 
 .celan{
-    margin-top: 40px;
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 350px;
+    margin-right: 20px;
+    margin-top: 0;
 }
 
 .celan h2{
@@ -118,7 +123,6 @@ table th{
 }
 
 form>div{
-    margin-left: 25%;
 }
 form div span{
     width: 150px;
@@ -126,7 +130,9 @@ form div span{
     display: inline-block;
     vertical-align:top;
 }
-
+input[type="password"]{
+    font-size: 13px;
+}
 .emphasize{
     text-align: left;
     vertical-align:text-bottom;
@@ -135,13 +141,13 @@ form div span{
 }
 
 .emphasize input{
-    font-size: 15px;
+
     display: inline-block;
     margin-bottom:10px; 
 }
 
 form textarea{
-    width: 75%;
+    width: 50%;
     height: 80px;
     border: 2px lightgray solid;
 }
@@ -158,11 +164,14 @@ form input[type="submit"]{
 }
 
 /*********footer********/
-
 .footer{
+    border: black 1px solid;
+}
+.footer p{
     width: 100%;
     line-height: 62px;
     background-color: black;
     color: white;
     text-align: center;
+    margin: 0;
 }
